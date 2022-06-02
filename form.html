@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Тест</title>
+   <link rel="stylesheet" href="css/style.css">
+   <script defer src="js/quiz.js"></script>
+   <script defer src="js/main.js"></script>
+</head>
+
+<body>
+   <div class="wrapper">
+      <section class="quiz">
+         <div class="quiz__container">
+            <div class="quiz__header">
+               <a href="index.html" class="header__logo">
+                  <img src="img/logo.png" alt="логотип кофе">
+               </a>
+               <a href="index.html" class="quiz__btn"><span>Вернуться на сайт</span></a>
+            </div>
+            <div class="quiz__body">
+               <div class="quiz__content">
+                  <div class="quiz__roof" id="header">
+                     <!-- Заголовок вопроса -->
+                     <h2 class="title">Загружаем вопрос...</h2>
+
+                     <!-- Результаты викторины -->
+                     <h2 class="title">%title%</h2>
+                     <h3 class="summary">%message%</h3>
+                     <p class="result">%result%</p>
+                  </div>
+                  <ul class="quiz__list" id="list">
+                     <li>
+                        <label>
+                           <input type="radio" class="answer" name="answer" />
+                           <span>Ответ...</span>
+                        </label>
+                     </li>
+                     <li>
+                        <label>
+                           <input type="radio" class="answer" name="answer" />
+                           <span>Ответ...</span>
+                        </label>
+                     </li>
+                  </ul>
+                  <button class="quiz__submit submit" id="submit">Ответить</button>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+</body>
+
+</html>
