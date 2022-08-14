@@ -1,221 +1,252 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expocoffee</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Expocoffee</title>
-   <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-   <div class="wrapper">
+  <body>
+    <div class="wrapper">
       <header class="header">
-         <div class="header__container">
-            <a href="index.html" class="header__logo">
-               <img src="img/logo.png" alt="логотип кофе">
-            </a>
-            <div class="header__burger">
-               <span></span>
-               <span></span>
-               <span></span>
-            </div>
-            <div class="header__menu menu">
-               <nav class="menu__body">
-                  <ul class="menu__list">
-                     <li class="menu__item"><a href="#offers" class="menu__item">Предложения</a></li>
-                     <li class="menu__item"><a href="#about-us" class="menu__item">О нас</a></li>
-                     <li class="menu__item"><a href="#menu" class="menu__item">Меню</a></li>
-                     <li class="menu__item"><a href="#blog" class="menu__item">Блог</a></li>
-                     <li class="menu__item"><a href="#gallery" class="menu__item">Галерея</a></li>
-                  </ul>
-               </nav>
-            </div>
-         </div>
+        <div class="header__container">
+          <a href="index.html" class="header__logo">
+            <img src="img/logo.png" alt="логотип кофе" />
+          </a>
+          <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#offers" class="menu__item">Предложения</a></li>
+                <li class="menu__item"><a href="#about-us" class="menu__item">О нас</a></li>
+                <li class="menu__item"><a href="#menu" class="menu__item">Меню</a></li>
+                <li class="menu__item"><a href="#blog" class="menu__item">Блог</a></li>
+                <li class="menu__item"><a href="#gallery" class="menu__item">Галерея</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </header>
       <main class="page">
-         <section class="main-bg">
-            <div class="main-bg__image ibg">
-               <img src="img/bg.webp" alt="кофе">
+        <section class="main-bg">
+          <div class="main-bg__image ibg">
+            <img src="img/bg.webp" alt="кофе" />
+          </div>
+          <div class="main__wrapper">
+            <a href="form.html" class="main__btn">
+              <p>Пройти опрос</p>
+            </a>
+          </div>
+          <div class="main-bg__arr">
+            <a href="#offers" class="main-bg__arrow">
+              <svg
+                enable-background="new 0 0 50 50"
+                height="50px"
+                id="Layer_1"
+                version="1.1"
+                viewBox="0 0 50 50"
+                width="50px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#fff"
+              >
+                <rect fill="none" height="50" width="50" />
+                <polygon points="47.25,15 45.164,12.914 25,33.078 4.836,12.914 2.75,15 25,37.25 " />
+              </svg>
+            </a>
+          </div>
+        </section>
+        <section id="offers" class="delicious">
+          <div class="delicious__container">
+            <div class="delicious__header">
+              <h2 class="delicious__title _title _anim">Наши восхитительные предложения</h2>
+              <div class="delicious__decor"></div>
             </div>
-            <div class="main__wrapper">
-               <a href="form.html" class="main__btn">
-                  <p>Пройти опрос</p>
-               </a>
+            <div class="delicious__items">
+              <div class="delicious__item">
+                <div class="delicious__icon">
+                  <img src="img/icon/1.png" alt="чашка кофе" />
+                </div>
+                <h4 class="delicious__subtitle">ВИДЫ КОФЕ</h4>
+                <p class="delicious__text">
+                  Классификаций кофе существует очень много. Некоторые выделяют разновидности кофе
+                  по сорту зерен, другие по видам кофейных напитков.
+                </p>
+              </div>
+              <div class="delicious__item">
+                <div class="delicious__icon">
+                  <img src="img/icon/2.png" alt="кофейные зерна" />
+                </div>
+                <h4 class="delicious__subtitle">Сорта зерен</h4>
+                <p class="delicious__text">
+                  Арабика, робуста и либерика – три основных вида кофейных зерен, но мир кофе не
+                  ограничивается ими. Всего существует еще около 120 сортов и видов кофе.
+                </p>
+              </div>
+              <div class="delicious__item">
+                <div class="delicious__icon">
+                  <img src="img/icon/3.png" alt="круассан" />
+                </div>
+                <h4 class="delicious__subtitle">Сладкая выпечка</h4>
+                <p class="delicious__text">
+                  Ароматная сладкая выпечка никого не оставляет равнодушным. Если вам срочно нужен
+                  вкусный десерт, то вы пришли по адресу.
+                </p>
+              </div>
+              <div class="delicious__item">
+                <div class="delicious__icon">
+                  <img src="img/icon/4.png" alt="стаканчик кофе" />
+                </div>
+                <h4 class="delicious__subtitle">Кофе с собой</h4>
+                <p class="delicious__text">
+                  Нет ничего лучше стаканчика с собой, когда времени в обрез
+                </p>
+              </div>
             </div>
-            <div class="main-bg__arr">
-               <a href="#offers" class="main-bg__arrow">
-                  <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50"
-                     width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                     xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff">
-                     <rect fill="none" height="50" width="50" />
-                     <polygon points="47.25,15 45.164,12.914 25,33.078 4.836,12.914 2.75,15 25,37.25 " />
-                  </svg>
-               </a>
-            </div>
-         </section>
-         <section id="offers" class="delicious">
-            <div class="delicious__container">
-               <div class="delicious__header">
-                  <h2 class="delicious__title _title _anim">Наши восхитительные предложения</h2>
-                  <div class="delicious__decor"></div>
-               </div>
-               <div class="delicious__items">
-                  <div class="delicious__item">
-                     <div class="delicious__icon">
-                        <img src="img/icon/1.png" alt="чашка кофе">
-                     </div>
-                     <h4 class="delicious__subtitle">ВИДЫ КОФЕ</h4>
-                     <p class="delicious__text">Классификаций кофе существует очень много. Некоторые выделяют
-                        разновидности кофе по сорту зерен, другие по видам кофейных напитков.</p>
-                  </div>
-                  <div class="delicious__item">
-                     <div class="delicious__icon">
-                        <img src="img/icon/2.png" alt="кофейные зерна">
-                     </div>
-                     <h4 class="delicious__subtitle">Сорта зерен</h4>
-                     <p class="delicious__text">Арабика, робуста и либерика – три основных вида кофейных зерен, но мир
-                        кофе не ограничивается ими. Всего существует еще около 120 сортов и видов кофе.</p>
-                  </div>
-                  <div class="delicious__item">
-                     <div class="delicious__icon">
-                        <img src="img/icon/3.png" alt="круассан">
-                     </div>
-                     <h4 class="delicious__subtitle">Сладкая выпечка</h4>
-                     <p class="delicious__text">Ароматная сладкая выпечка никого не оставляет равнодушным. Если вам
-                        срочно нужен вкусный десерт, то вы пришли по адресу.</p>
-                  </div>
-                  <div class="delicious__item">
-                     <div class="delicious__icon">
-                        <img src="img/icon/4.png" alt="стаканчик кофе">
-                     </div>
-                     <h4 class="delicious__subtitle">Кофе с собой</h4>
-                     <p class="delicious__text">Нет ничего лучше стаканчика с собой, когда времени в обрез</p>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <section class="canopy">
-            <div class="canopy__container">
-               <div class="canopy__body">
-                  <div class="canopy__item _anim">
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/1.jpg" alt="кофейня">
-                     </div>
-                  </div>
-                  <div class="canopy__item _anim">
-                     <div class="canopy__text">часы <br> работы</div>
-                     <div class="canopy__subtext">9:00 — 22:00</div>
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/2.jpg" alt="кофейные зерна">
-                     </div>
-                  </div>
-                  <div class="canopy__item _anim">
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/3.jpg" alt="кофе и выпечка">
-                     </div>
-                  </div>
-                  <div class="canopy__item _anim">
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/4.jpg" alt="девушка в кофейне">
-                     </div>
-                  </div>
-                  <div class="canopy__item _anim">
-                     <div class="canopy__text">бронирование:</div>
-                     <a href="tel:+7(925)417-71-20" class="canopy__subtext canopy__subtext_num">+7(925)417-71-20</a>
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/5.jpg" alt="лист">
-                     </div>
-                  </div>
-                  <div class="canopy__item _anim">
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/6.jpg" alt="бариста">
-                     </div>
-                  </div>
+          </div>
+        </section>
+        <section class="canopy">
+          <div class="canopy__container">
+            <div class="canopy__body">
+              <div class="canopy__item _anim">
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/1.jpg" alt="кофейня" />
+                </div>
+              </div>
+              <div class="canopy__item _anim">
+                <div class="canopy__text">
+                  часы <br />
+                  работы
+                </div>
+                <div class="canopy__subtext">9:00 — 22:00</div>
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/2.jpg" alt="кофейные зерна" />
+                </div>
+              </div>
+              <div class="canopy__item _anim">
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/3.jpg" alt="кофе и выпечка" />
+                </div>
+              </div>
+              <div class="canopy__item _anim">
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/4.jpg" alt="девушка в кофейне" />
+                </div>
+              </div>
+              <div class="canopy__item _anim">
+                <div class="canopy__text">бронирование:</div>
+                <a href="tel:+7(925)417-71-20" class="canopy__subtext canopy__subtext_num"
+                  >+7(925)417-71-20</a
+                >
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/5.jpg" alt="лист" />
+                </div>
+              </div>
+              <div class="canopy__item _anim">
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/6.jpg" alt="бариста" />
+                </div>
+              </div>
 
-                  <div class="canopy__item _anim">
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/7.jpg" alt="совместное кофепитие">
-                     </div>
-                  </div>
-                  <div class="canopy__item _anim">
-                     <div class="canopy__text">Москва <br> Санкт-Петербург</div>
-                     <div class="canopy__img ibg">
-                        <img src="img/canopy/8.jpg" alt="круассан">
-                     </div>
-                  </div>
-               </div>
+              <div class="canopy__item _anim">
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/7.jpg" alt="совместное кофепитие" />
+                </div>
+              </div>
+              <div class="canopy__item _anim">
+                <div class="canopy__text">
+                  Москва <br />
+                  Санкт-Петербург
+                </div>
+                <div class="canopy__img ibg">
+                  <img src="img/canopy/8.jpg" alt="круассан" />
+                </div>
+              </div>
             </div>
-         </section>
-         <section id="about-us" class="about-us">
-            <div class="about-us__container">
-               <div class="about-us__bg">
-                  <img src="img/aboutus/coffee-bg.png" alt="кофейные зерна">
-               </div>
-               <div class="about-us__left">
-                  <div class="about-us__subtitle">Кто мы</div>
-                  <div class="about-us__title">О кофейне</div>
-                  <div class="about-us__text">Наша кофейня — это то место, где работают люди, которым важно все, что так
-                     или иначе связано с качественным и вкусным кофе.
-
-                     Наш департамент бариста самостоятельно ездит на кофейные плантации и отбирает лучшее зерно
-                     последнего урожая. А благодаря собственному обжаренному цеху, который открыт с 2016 года, в нашей
-                     кофейне всегда представлен кофе свежей обжарки.</div>
-                  <div class="about-us__autograph">
-                     <img src="img/aboutus/sign.png" alt="автограф">
-                  </div>
-               </div>
-               <div class="about-us__right">
-                  <div class="about-us__column _anim">
-                     <div class="about-us__item item-about-us">
-                        <div class="item-about-us__icon">
-                           <img src="img/aboutus/1.png" alt="кофейные зерна">
-                        </div>
-                        <div class="item-about-us__title">Лучшие сорта в мире</div>
-                        <div class="item-about-us__text">Существует множество видов кофейных деревьев и способов
-                           обработки
-                           кофейных зерен, итоговый вкус напитка во многом зависит от этих двух факторов</div>
-                     </div>
-                     <div class="about-us__item item-about-us">
-                        <div class="item-about-us__icon">
-                           <img src="img/aboutus/3.png" alt="кофеварка">
-                        </div>
-                        <div class="item-about-us__title">Профессиональные баристы</div>
-                        <div class="item-about-us__text">Профессионал-бариста – это внимательный, сдержанный и
-                           обходительный человек, которому клиенты доверяют выбор напитка, если это необходимо, и его
-                           безукоризненное приготовление.</div>
-                     </div>
-                  </div>
-                  <div class="about-us__column _anim">
-                     <div class="about-us__item item-about-us">
-                        <div class="item-about-us__icon">
-                           <img src="img/aboutus/2.png" alt="магазин">
-                        </div>
-                        <div class="item-about-us__title">Множество торговых точек</div>
-                        <div class="item-about-us__text">Торговые точки разбросаны по всем окресностям больших городов
-                        </div>
-                     </div>
-                     <div class="about-us__item item-about-us">
-                        <div class="item-about-us__icon">
-                           <img src="img/aboutus/4.png" alt="машина">
-                        </div>
-                        <div class="item-about-us__title">быстрая доставка 24/7</div>
-                        <div class="item-about-us__text">Доставка ароматного капучино или латте займет примерно 10
-                           минут. Остыть заказ не успеет, потому что привезут его из ближайшей к вам кофейни</div>
-                     </div>
-                  </div>
-               </div>
+          </div>
+        </section>
+        <section id="about-us" class="about-us">
+          <div class="about-us__container">
+            <div class="about-us__bg">
+              <img src="img/aboutus/coffee-bg.png" alt="кофейные зерна" />
             </div>
-         </section>
-         <section id="menu" class="popular">
-            <div class="popular__container">
-               <div class="popular__head">
-                  <div class="popular__subtitle">Выбирай лучший кофе</div>
-                  <div class="popular__title _title _anim">Популярные предложения меню</div>
-                  <div class="delicious__decor"></div>
-               </div>
-               <!-- <nav class="popular__triggers">
+            <div class="about-us__left">
+              <div class="about-us__subtitle">Кто мы</div>
+              <div class="about-us__title">О кофейне</div>
+              <div class="about-us__text">
+                Наша кофейня — это то место, где работают люди, которым важно все, что так или иначе
+                связано с качественным и вкусным кофе. Наш департамент бариста самостоятельно ездит
+                на кофейные плантации и отбирает лучшее зерно последнего урожая. А благодаря
+                собственному обжаренному цеху, который открыт с 2016 года, в нашей кофейне всегда
+                представлен кофе свежей обжарки.
+              </div>
+              <div class="about-us__autograph">
+                <img src="img/aboutus/sign.png" alt="автограф" />
+              </div>
+            </div>
+            <div class="about-us__right">
+              <div class="about-us__column _anim">
+                <div class="about-us__item item-about-us">
+                  <div class="item-about-us__icon">
+                    <img src="img/aboutus/1.png" alt="кофейные зерна" />
+                  </div>
+                  <div class="item-about-us__title">Лучшие сорта в мире</div>
+                  <div class="item-about-us__text">
+                    Существует множество видов кофейных деревьев и способов обработки кофейных
+                    зерен, итоговый вкус напитка во многом зависит от этих двух факторов
+                  </div>
+                </div>
+                <div class="about-us__item item-about-us">
+                  <div class="item-about-us__icon">
+                    <img src="img/aboutus/3.png" alt="кофеварка" />
+                  </div>
+                  <div class="item-about-us__title">Профессиональные баристы</div>
+                  <div class="item-about-us__text">
+                    Профессионал-бариста – это внимательный, сдержанный и обходительный человек,
+                    которому клиенты доверяют выбор напитка, если это необходимо, и его
+                    безукоризненное приготовление.
+                  </div>
+                </div>
+              </div>
+              <div class="about-us__column _anim">
+                <div class="about-us__item item-about-us">
+                  <div class="item-about-us__icon">
+                    <img src="img/aboutus/2.png" alt="магазин" />
+                  </div>
+                  <div class="item-about-us__title">Множество торговых точек</div>
+                  <div class="item-about-us__text">
+                    Торговые точки разбросаны по всем окресностям больших городов
+                  </div>
+                </div>
+                <div class="about-us__item item-about-us">
+                  <div class="item-about-us__icon">
+                    <img src="img/aboutus/4.png" alt="машина" />
+                  </div>
+                  <div class="item-about-us__title">быстрая доставка 24/7</div>
+                  <div class="item-about-us__text">
+                    Доставка ароматного капучино или латте займет примерно 10 минут. Остыть заказ не
+                    успеет, потому что привезут его из ближайшей к вам кофейни
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="menu" class="popular">
+          <div class="popular__container">
+            <div class="popular__head">
+              <div class="popular__subtitle">Выбирай лучший кофе</div>
+              <div class="popular__title _title _anim">Популярные предложения меню</div>
+              <div class="delicious__decor"></div>
+            </div>
+            <!-- <nav class="popular__triggers">
                   <ul class="triggers">
                      <li data-f="all" class="triggers__item">Все</li>
                      <li data-f="coffee" class="triggers__item">Кофе</li>
@@ -223,411 +254,474 @@
                      <li data-f="fast-food" class="triggers__item">фаст-фуд</li>
                   </ul>
                </nav> -->
-               <div class="triggers">
-                  <button class="triggers__item triggers__item_type_all active" data-filter="all">Все</button>
-                  <button class="triggers__item triggers__item_type_coffee " data-filter="coffee">Кофе</button>
-                  <button class="triggers__item triggers__item_type_dessert" data-filter="dessert">десерты</button>
-                  <button class="triggers__item triggers__item_type_fast-food" data-filter="fast-food">фаст-фуд</button>
-               </div>
-               <div class="popular__tabs tabs-popular">
-                  <div class="tabs-popular__content">
-                     <div class="tabs-popular__item coffee">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/1.jpg" alt="кофе">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Холодный Сваренный Кофе</div>
-                           <div class="tabs-popular__description">2/3 эспрессо, 1/3 льда</div>
-                           <div class="tabs-popular__price">250 ₽</div>
-                        </div>
-                     </div>
-                     <div class="tabs-popular__item coffee">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/2.jpg" alt="кофе">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Руссиано</div>
-                           <div class="tabs-popular__description">2/3 эспрессо, 1/3 молока</div>
-                           <div class="tabs-popular__price">170 ₽</div>
-                        </div>
-                     </div>
-                     <div class="tabs-popular__item coffee">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/3.jpg" alt="кофе">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Экспрессо</div>
-                           <div class="tabs-popular__description">100 мл экспрессо</div>
-                           <div class="tabs-popular__price">200 ₽</div>
-                        </div>
-                     </div>
-                     <div class="tabs-popular__item coffee">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/5.jpg" alt="кофе">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Холодный кофе</div>
-                           <div class="tabs-popular__description">2/3 эспрессо, 1/3 парного молока</div>
-                           <div class="tabs-popular__price">250 ₽</div>
-                        </div>
-                     </div>
-                     <div class="tabs-popular__item dessert">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/4.jpg" alt="кофе с сиропом">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Кофе с сиропом</div>
-                           <div class="tabs-popular__description">капучино / сипор на выбор</div>
-                           <div class="tabs-popular__price">250 ₽</div>
-                        </div>
-                     </div>
-                     <div class="tabs-popular__item dessert">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/9.jpg" alt="мороженое">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Мороженое</div>
-                           <div class="tabs-popular__description">3 разных шарика</div>
-                           <div class="tabs-popular__price">250 ₽</div>
-                        </div>
-                     </div>
-                     <div class="tabs-popular__item fast-food">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/7.jpg" alt="бургер с курицей">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Бургер с курицей</div>
-                           <div class="tabs-popular__description">Молотая куриная грудка, горчица, паприка</div>
-                           <div class="tabs-popular__price">300 ₽</div>
-                        </div>
-                     </div>
-                     <div class="tabs-popular__item fast-food">
-                        <div class="tabs-popular__image ibg">
-                           <img src="img/popular/8.jpg" alt="бургер">
-                        </div>
-                        <div class="tabs-popular__text">
-                           <div class="tabs-popular__name">Итальянский бургер</div>
-                           <div class="tabs-popular__description">котлета, соус песто, моцарелла, руккола</div>
-                           <div class="tabs-popular__price">250 ₽</div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+            <div class="triggers">
+              <button class="triggers__item triggers__item_type_all active" data-filter="all">
+                Все
+              </button>
+              <button class="triggers__item triggers__item_type_coffee" data-filter="coffee">
+                Кофе
+              </button>
+              <button class="triggers__item triggers__item_type_dessert" data-filter="dessert">
+                десерты
+              </button>
+              <button class="triggers__item triggers__item_type_fast-food" data-filter="fast-food">
+                фаст-фуд
+              </button>
             </div>
-         </section>
-         <section id="blog" class="slider">
-            <div class="slider__head">
-               <div class="slider__title _title _anim">Наш блог</div>
-               <div class="delicious__decor"></div>
+            <div class="popular__tabs tabs-popular">
+              <div class="tabs-popular__content">
+                <div class="tabs-popular__item coffee">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/1.jpg" alt="кофе" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Холодный Сваренный Кофе</div>
+                    <div class="tabs-popular__description">2/3 эспрессо, 1/3 льда</div>
+                    <div class="tabs-popular__price">250 ₽</div>
+                  </div>
+                </div>
+                <div class="tabs-popular__item coffee">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/2.jpg" alt="кофе" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Американо</div>
+                    <div class="tabs-popular__description">2/3 эспрессо, 1/3 молока</div>
+                    <div class="tabs-popular__price">170 ₽</div>
+                  </div>
+                </div>
+                <div class="tabs-popular__item coffee">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/3.jpg" alt="кофе" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Экспрессо</div>
+                    <div class="tabs-popular__description">100 мл экспрессо</div>
+                    <div class="tabs-popular__price">200 ₽</div>
+                  </div>
+                </div>
+                <div class="tabs-popular__item coffee">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/5.jpg" alt="кофе" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Холодный кофе</div>
+                    <div class="tabs-popular__description">2/3 эспрессо, 1/3 парного молока</div>
+                    <div class="tabs-popular__price">250 ₽</div>
+                  </div>
+                </div>
+                <div class="tabs-popular__item dessert">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/4.jpg" alt="кофе с сиропом" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Кофе с сиропом</div>
+                    <div class="tabs-popular__description">капучино / сипор на выбор</div>
+                    <div class="tabs-popular__price">250 ₽</div>
+                  </div>
+                </div>
+                <div class="tabs-popular__item dessert">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/9.jpg" alt="мороженое" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Мороженое</div>
+                    <div class="tabs-popular__description">3 разных шарика</div>
+                    <div class="tabs-popular__price">250 ₽</div>
+                  </div>
+                </div>
+                <div class="tabs-popular__item fast-food">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/7.jpg" alt="бургер с курицей" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Бургер с курицей</div>
+                    <div class="tabs-popular__description">
+                      Молотая куриная грудка, горчица, паприка
+                    </div>
+                    <div class="tabs-popular__price">300 ₽</div>
+                  </div>
+                </div>
+                <div class="tabs-popular__item fast-food">
+                  <div class="tabs-popular__image ibg">
+                    <img src="img/popular/8.jpg" alt="бургер" />
+                  </div>
+                  <div class="tabs-popular__text">
+                    <div class="tabs-popular__name">Итальянский бургер</div>
+                    <div class="tabs-popular__description">
+                      котлета, соус песто, моцарелла, руккола
+                    </div>
+                    <div class="tabs-popular__price">250 ₽</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="slider__block slider__container swiper-container">
-               <div class="slider__wrapper swiper-wrapper">
-                  <div class="slider__item swiper-slide">
-                     <div class="slider__image">
-                        <div class="slider__img ibg">
-                           <img src="img/slider/1.webp" alt="кофе">
-                        </div>
-                     </div>
-                     <div class="slider__content">
-                        <div class="slider__subtitle">Новое</div>
-                        <div class="slider__name">История кофе</div>
-                        <div class="slider__text">Из Эфиопии кофе распространился в Египет и Йемен. Наиболее ранние
-                           свидетельства употребления кофе относятся к середине XV века в суфийских монастырях Йемена
-                        </div>
-                     </div>
+          </div>
+        </section>
+        <section id="blog" class="slider">
+          <div class="slider__head">
+            <div class="slider__title _title _anim">Наш блог</div>
+            <div class="delicious__decor"></div>
+          </div>
+          <div class="slider__block slider__container swiper-container">
+            <div class="slider__wrapper swiper-wrapper">
+              <div class="slider__item swiper-slide">
+                <div class="slider__image">
+                  <div class="slider__img ibg">
+                    <img src="img/slider/1.webp" alt="кофе" />
                   </div>
-                  <div class="slider__item swiper-slide">
-                     <div class="slider__image">
-                        <div class="slider__img ibg">
-                           <img src="img/slider/2.webp" alt="кофе">
-                        </div>
-                     </div>
-                     <div class="slider__content">
-                        <div class="slider__subtitle">Новое</div>
-                        <div class="slider__name">10 Шагов От Семени До Чашки</div>
-                        <div class="slider__text">За то время, когда их сажают, собирают и покупают, кофейные зерна
-                           проходят типичную серию шагов, чтобы выявить свои лучшие качества</div>
-                     </div>
+                </div>
+                <div class="slider__content">
+                  <div class="slider__subtitle">Новое</div>
+                  <div class="slider__name">История кофе</div>
+                  <div class="slider__text">
+                    Из Эфиопии кофе распространился в Египет и Йемен. Наиболее ранние свидетельства
+                    употребления кофе относятся к середине XV века в суфийских монастырях Йемена
                   </div>
-                  <div class="slider__item swiper-slide">
-                     <div class="slider__image">
-                        <div class="slider__img ibg">
-                           <img src="img/slider/3.webp" alt="зерна кофе">
-                        </div>
-                     </div>
-                     <div class="slider__content">
-                        <div class="slider__subtitle">Новое</div>
-                        <div class="slider__name">Кофе в кофейном поясе</div>
-                        <div class="slider__text">Кофейный пояс Земли представляет собой воображаемую полосу, которая
-                           находится на поверхности Земли между тропиками Рака и Козерога. То есть, в пределах 23,5
-                           градусов к югу и северу от экватора</div>
-                     </div>
+                </div>
+              </div>
+              <div class="slider__item swiper-slide">
+                <div class="slider__image">
+                  <div class="slider__img ibg">
+                    <img src="img/slider/2.webp" alt="кофе" />
                   </div>
-                  <div class="slider__item swiper-slide">
-                     <div class="slider__image">
-                        <div class="slider__img ibg">
-                           <img src="img/slider/4.webp" alt="">
-                        </div>
-                     </div>
-                     <div class="slider__content">
-                        <div class="slider__subtitle">Кновое</div>
-                        <div class="slider__name">История кофе</div>
-                        <div class="slider__text">Кофейные аукционы — один из перспективных форматов продажи и покупки
-                           зеленого кофе. Несмотря на то, что за время существования подход к таким торгам претерпевал
-                           изменения, они остаются привлекательными как для закупщиков и импортеров, так и для фермеров
-                        </div>
-                     </div>
+                </div>
+                <div class="slider__content">
+                  <div class="slider__subtitle">Новое</div>
+                  <div class="slider__name">10 Шагов От Семени До Чашки</div>
+                  <div class="slider__text">
+                    За то время, когда их сажают, собирают и покупают, кофейные зерна проходят
+                    типичную серию шагов, чтобы выявить свои лучшие качества
                   </div>
-                  <div class="slider__item swiper-slide">
-                     <div class="slider__image">
-                        <div class="slider__img ibg">
-                           <img src="img/slider/5.webp" alt="">
-                        </div>
-                     </div>
-                     <div class="slider__content">
-                        <div class="slider__subtitle">Новое</div>
-                        <div class="slider__name">Самостоятельный выбор кофе</div>
-                        <div class="slider__text">Выбирать кофе напрямую есть смысл в тех странах-производителях, где
-                           можно закупить минимум один полный контейнер на год — это около 20 тонн зеленого кофе.</div>
-                     </div>
+                </div>
+              </div>
+              <div class="slider__item swiper-slide">
+                <div class="slider__image">
+                  <div class="slider__img ibg">
+                    <img src="img/slider/3.webp" alt="зерна кофе" />
                   </div>
-                  <div class="slider__item swiper-slide">
-                     <div class="slider__image">
-                        <div class="slider__img ibg">
-                           <img src="img/slider/6.webp" alt="">
-                        </div>
-                     </div>
-                     <div class="slider__content">
-                        <div class="slider__subtitle">Новое</div>
-                        <div class="slider__name">Необычные рецепты латте</div>
-                        <div class="slider__text">
-                           Классический латте можно усложнять и модернизировать, добавляя необычные ингредиенты. Бариста
-                           постоянно придумывают новые вариации напитка, и некоторые из них потом пользуются успехом по
-                           всему миру</div>
-                     </div>
+                </div>
+                <div class="slider__content">
+                  <div class="slider__subtitle">Новое</div>
+                  <div class="slider__name">Кофе в кофейном поясе</div>
+                  <div class="slider__text">
+                    Кофейный пояс Земли представляет собой воображаемую полосу, которая находится на
+                    поверхности Земли между тропиками Рака и Козерога. То есть, в пределах 23,5
+                    градусов к югу и северу от экватора
                   </div>
-               </div>
-               <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="slider__item swiper-slide">
+                <div class="slider__image">
+                  <div class="slider__img ibg">
+                    <img src="img/slider/4.webp" alt="" />
+                  </div>
+                </div>
+                <div class="slider__content">
+                  <div class="slider__subtitle">Кновое</div>
+                  <div class="slider__name">История кофе</div>
+                  <div class="slider__text">
+                    Кофейные аукционы — один из перспективных форматов продажи и покупки зеленого
+                    кофе. Несмотря на то, что за время существования подход к таким торгам
+                    претерпевал изменения, они остаются привлекательными как для закупщиков и
+                    импортеров, так и для фермеров
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item swiper-slide">
+                <div class="slider__image">
+                  <div class="slider__img ibg">
+                    <img src="img/slider/5.webp" alt="" />
+                  </div>
+                </div>
+                <div class="slider__content">
+                  <div class="slider__subtitle">Новое</div>
+                  <div class="slider__name">Самостоятельный выбор кофе</div>
+                  <div class="slider__text">
+                    Выбирать кофе напрямую есть смысл в тех странах-производителях, где можно
+                    закупить минимум один полный контейнер на год — это около 20 тонн зеленого кофе.
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item swiper-slide">
+                <div class="slider__image">
+                  <div class="slider__img ibg">
+                    <img src="img/slider/6.webp" alt="" />
+                  </div>
+                </div>
+                <div class="slider__content">
+                  <div class="slider__subtitle">Новое</div>
+                  <div class="slider__name">Необычные рецепты латте</div>
+                  <div class="slider__text">
+                    Классический латте можно усложнять и модернизировать, добавляя необычные
+                    ингредиенты. Бариста постоянно придумывают новые вариации напитка, и некоторые
+                    из них потом пользуются успехом по всему миру
+                  </div>
+                </div>
+              </div>
             </div>
-         </section>
-         <div class="skills">
-            <div class="skills__bg ibg">
-               <img src="img/bgSkills.jpg" alt="">
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+        <div class="skills">
+          <div class="skills__bg ibg">
+            <img src="img/bgSkills.jpg" alt="" />
+          </div>
+          <div class="skills__container">
+            <div class="skills__head">
+              <div class="skills__title _title _anim">Наши достижения</div>
             </div>
-            <div class="skills__container">
-
-               <div class="skills__head">
-                  <div class="skills__title _title _anim">Наши достижения</div>
-               </div>
-               <div class="skills__items _anim">
-                  <div class="skills__item">
-                     <div class="skills__value" data-goal="222">0</div>
-                     <div class="skills__name">Премиум клиента</div>
-                     <div class="skills__text">клиентов, которые потребляют качественный кофе и предъявляют высокие
-                        требования к его вкусу!</div>
-                  </div>
-                  <div class="skills__item">
-                     <div class="skills__value" data-goal="12">0</div>
-                     <div class="skills__name">Типов продуктов</div>
-                     <div class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam rerum
-                        tationem sunt!</div>
-                  </div>
-                  <div class="skills__item">
-                     <div class="skills__value" data-goal="148">0</div>
-                     <div class="skills__name">Счастливых покупателя</div>
-                     <div class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam rerum
-                        tationem sunt!</div>
-                  </div>
-               </div>
+            <div class="skills__items _anim">
+              <div class="skills__item">
+                <div class="skills__value" data-goal="222">0</div>
+                <div class="skills__name">Премиум клиента</div>
+                <div class="skills__text">
+                  клиентов, которые потребляют качественный кофе и предъявляют высокие требования к
+                  его вкусу!
+                </div>
+              </div>
+              <div class="skills__item">
+                <div class="skills__value" data-goal="12">0</div>
+                <div class="skills__name">Типов продуктов</div>
+                <div class="skills__text">
+                  которые могут удовлетворить все пожелания наших клиентов!
+                </div>
+              </div>
+              <div class="skills__item">
+                <div class="skills__value" data-goal="148">0</div>
+                <div class="skills__name">Счастливых покупателя</div>
+                <div class="skills__text">
+                  к каждому покупателю мы проявляем должное внимание, уделяя большое внимание
+                  мелочам!
+                </div>
+              </div>
             </div>
-         </div>
-         <section id="gallery" class="gallery">
-            <div class="gallery__container">
-               <div class="gallery__title _title _anim">Наша Галерея</div>
-               <div class="gallery__body">
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/1.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/2.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/3.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/4.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/5.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/6.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/7.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/8.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/9.webp" alt="">
-                     </div>
-                  </div>
-                  <div class="gallery__item">
-                     <div class="gallery__image ibg">
-                        <img src="img/gallary/10.webp" alt="">
-                     </div>
-                  </div>
-               </div>
-               <div class="gallery__popup">
-                  <span>&times;</span>
-                  <img src="img/gallary/1.webp" alt="">
-               </div>
+          </div>
+        </div>
+        <section id="gallery" class="gallery">
+          <div class="gallery__container">
+            <div class="gallery__title _title _anim">Наша Галерея</div>
+            <div class="gallery__body">
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/1.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/2.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/3.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/4.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/5.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/6.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/7.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/8.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/9.webp" alt="" />
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="gallery__image ibg">
+                  <img src="img/gallary/10.webp" alt="" />
+                </div>
+              </div>
             </div>
-         </section>
+            <div class="gallery__popup">
+              <span>&times;</span>
+              <img src="img/gallary/1.webp" alt="" />
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
-         <div class="footer__container">
-            <div class="footer__left">
-               <div class="footer__logo">
-                  <img src="img/logo.png" alt="">
-               </div>
-               <div class="footer__socials">
-                  <a href="https://www.instagram.com/" class="footer__social">
-                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.7 56.7"
-                        enable-background="new 0 0 56.7 56.7" xml:space="preserve">
-                        <g>
-                           <path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
-		c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z" />
-                           <circle cx="41.5" cy="16.4" r="2.9" />
-                           <path d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
+        <div class="footer__container">
+          <div class="footer__left">
+            <div class="footer__logo">
+              <img src="img/logo.png" alt="" />
+            </div>
+            <div class="footer__socials">
+              <a href="https://www.instagram.com/" class="footer__social">
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 56.7 56.7"
+                  enable-background="new 0 0 56.7 56.7"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <path
+                      d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
+		c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"
+                    />
+                    <circle cx="41.5" cy="16.4" r="2.9" />
+                    <path
+                      d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
 		h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3
 		s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6
-		c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z" />
-                        </g>
-                     </svg>
-                  </a>
-                  <a href="https://vk.com/" class="footer__social">
-                     <svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                        <title />
-                        <path
-                           d="M484.7,132c3.56-11.28,0-19.48-15.75-19.48H416.58c-13.21,0-19.31,7.18-22.87,14.86,0,0-26.94,65.6-64.56,108.13-12.2,12.3-17.79,16.4-24.4,16.4-3.56,0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14,0-13.22,6.15-13.22,12.3,0,12.81,18.81,15.89,20.84,51.76V254c0,16.91-3,20-9.66,20-17.79,0-61-66.11-86.92-141.44C105,117.64,99.88,112,86.66,112H33.79C18.54,112,16,119.17,16,126.86c0,13.84,17.79,83.53,82.86,175.77,43.21,63,104.72,96.86,160.13,96.86,33.56,0,37.62-7.69,37.62-20.5V331.33c0-15.37,3.05-17.93,13.73-17.93,7.62,0,21.35,4.09,52.36,34.33C398.28,383.6,404.38,400,424.21,400h52.36c15.25,0,22.37-7.69,18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35,0-23.57-.51,0,63.55-91.22,70.15-122"
-                           style="fill-rule:evenodd" />
-                     </svg>
-                  </a>
-                  <a href="https://www.youtube.com/" class="footer__social">
-                     <svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
-                        viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <g>
-                           <path
-                              d="M508.6,148.8c0-45-33.1-81.2-74-81.2C379.2,65,322.7,64,265,64c-3,0-6,0-9,0s-6,0-9,0c-57.6,0-114.2,1-169.6,3.6   c-40.8,0-73.9,36.4-73.9,81.4C1,184.6-0.1,220.2,0,255.8C-0.1,291.4,1,327,3.4,362.7c0,45,33.1,81.5,73.9,81.5   c58.2,2.7,117.9,3.9,178.6,3.8c60.8,0.2,120.3-1,178.6-3.8c40.9,0,74-36.5,74-81.5c2.4-35.7,3.5-71.3,3.4-107   C512.1,220.1,511,184.5,508.6,148.8z M207,353.9V157.4l145,98.2L207,353.9z" />
-                        </g>
-                     </svg>
-                  </a>
-                  <a href="facebook.com" class="footer__social">
-                     <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1"
-                        viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path
-                           d="M28.347,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.625-11.023,24.625-24.623  C52.972,16.184,41.946,5.157,28.347,5.157z M34.864,29.679h-4.264c0,6.814,0,15.207,0,15.207h-6.32c0,0,0-8.307,0-15.207h-3.006  V24.31h3.006v-3.479c0-2.49,1.182-6.377,6.379-6.377l4.68,0.018v5.215c0,0-2.846,0-3.398,0c-0.555,0-1.34,0.277-1.34,1.461v3.163  h4.818L34.864,29.679z" />
-                     </svg>
-                  </a>
-               </div>
+		c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"
+                    />
+                  </g>
+                </svg>
+              </a>
+              <a href="https://vk.com/" class="footer__social">
+                <svg
+                  height="512"
+                  viewBox="0 0 512 512"
+                  width="512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title />
+                  <path
+                    d="M484.7,132c3.56-11.28,0-19.48-15.75-19.48H416.58c-13.21,0-19.31,7.18-22.87,14.86,0,0-26.94,65.6-64.56,108.13-12.2,12.3-17.79,16.4-24.4,16.4-3.56,0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14,0-13.22,6.15-13.22,12.3,0,12.81,18.81,15.89,20.84,51.76V254c0,16.91-3,20-9.66,20-17.79,0-61-66.11-86.92-141.44C105,117.64,99.88,112,86.66,112H33.79C18.54,112,16,119.17,16,126.86c0,13.84,17.79,83.53,82.86,175.77,43.21,63,104.72,96.86,160.13,96.86,33.56,0,37.62-7.69,37.62-20.5V331.33c0-15.37,3.05-17.93,13.73-17.93,7.62,0,21.35,4.09,52.36,34.33C398.28,383.6,404.38,400,424.21,400h52.36c15.25,0,22.37-7.69,18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35,0-23.57-.51,0,63.55-91.22,70.15-122"
+                    style="fill-rule: evenodd"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/" class="footer__social">
+                <svg
+                  height="512px"
+                  id="Layer_1"
+                  style="enable-background: new 0 0 512 512"
+                  version="1.1"
+                  viewBox="0 0 512 512"
+                  width="512px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M508.6,148.8c0-45-33.1-81.2-74-81.2C379.2,65,322.7,64,265,64c-3,0-6,0-9,0s-6,0-9,0c-57.6,0-114.2,1-169.6,3.6   c-40.8,0-73.9,36.4-73.9,81.4C1,184.6-0.1,220.2,0,255.8C-0.1,291.4,1,327,3.4,362.7c0,45,33.1,81.5,73.9,81.5   c58.2,2.7,117.9,3.9,178.6,3.8c60.8,0.2,120.3-1,178.6-3.8c40.9,0,74-36.5,74-81.5c2.4-35.7,3.5-71.3,3.4-107   C512.1,220.1,511,184.5,508.6,148.8z M207,353.9V157.4l145,98.2L207,353.9z"
+                    />
+                  </g>
+                </svg>
+              </a>
+              <a href="facebook.com" class="footer__social">
+                <svg
+                  enable-background="new 0 0 56.693 56.693"
+                  height="56.693px"
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 56.693 56.693"
+                  width="56.693px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <path
+                    d="M28.347,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.625-11.023,24.625-24.623  C52.972,16.184,41.946,5.157,28.347,5.157z M34.864,29.679h-4.264c0,6.814,0,15.207,0,15.207h-6.32c0,0,0-8.307,0-15.207h-3.006  V24.31h3.006v-3.479c0-2.49,1.182-6.377,6.379-6.377l4.68,0.018v5.215c0,0-2.846,0-3.398,0c-0.555,0-1.34,0.277-1.34,1.461v3.163  h4.818L34.864,29.679z"
+                  />
+                </svg>
+              </a>
             </div>
-            <div class="footer__contanct">
-               <div class="footer__title">Контакты</div>
-               <div class="footer__body">
-                  <div class="footer__item">
-                     <div class="footer__icon">
-                        <img src="img/footer/location.svg" alt="">
-                     </div>
-                     <div class="footer__text">
-                        <div class="footer__name">Мeсто нахождения:</div>
-                        <div class="footer__valuek">Москва, Пресненская наб. 8</div>
-                     </div>
-                  </div>
-                  <div class="footer__item">
-                     <div class="footer__icon">
-                        <img src="img/footer/email.svg" alt="">
-                     </div>
-                     <div class="footer__text">
-                        <div class="footer__name">Адрес email:</div>
-                        <a href="mailto:expocoffee@gmail.com" class="footer__value">expocoffee@gmail.com</a>
-                     </div>
-                  </div>
-                  <div class="footer__item">
-                     <div class="footer__icon">
-                        <img src="img/footer/phone.svg" alt="">
-                     </div>
-                     <div class="footer__text">
-                        <div class="footer__name">Номер телефона:</div>
-                        <a href="tel:+7(925)417-71-20" class="footer__value">+7(925)417-71-20</a>
-                     </div>
-                  </div>
-               </div>
+          </div>
+          <div class="footer__contanct">
+            <div class="footer__title">Контакты</div>
+            <div class="footer__body">
+              <div class="footer__item">
+                <div class="footer__icon">
+                  <img src="img/footer/location.svg" alt="" />
+                </div>
+                <div class="footer__text">
+                  <div class="footer__name">Мeсто нахождения:</div>
+                  <div class="footer__valuek">Москва, Пресненская наб. 8</div>
+                </div>
+              </div>
+              <div class="footer__item">
+                <div class="footer__icon">
+                  <img src="img/footer/email.svg" alt="" />
+                </div>
+                <div class="footer__text">
+                  <div class="footer__name">Адрес email:</div>
+                  <a href="mailto:expocoffee@gmail.com" class="footer__value"
+                    >expocoffee@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="footer__item">
+                <div class="footer__icon">
+                  <img src="img/footer/phone.svg" alt="" />
+                </div>
+                <div class="footer__text">
+                  <div class="footer__name">Номер телефона:</div>
+                  <a href="tel:+7(925)417-71-20" class="footer__value">+7(925)417-71-20</a>
+                </div>
+              </div>
             </div>
-            <div class="footer__inst inst-footer">
-               <div class="inst-footer__title">Наш инстаграм</div>
-               <div class="inst-footer__body">
-                  <a href="https://www.instagram.com/" class="inst-footer__item">
-                     <div class="inst-footer__image">
-                        <img src="img/footer/1.jpeg" alt="">
-                     </div>
-                  </a>
-                  <a href="https://www.instagram.com/" class="inst-footer__item">
-                     <div class="inst-footer__image">
-                        <img src="img/footer/2.jpeg" alt="">
-                     </div>
-                  </a>
-                  <a href="https://www.instagram.com/" class="inst-footer__item">
-                     <div class="inst-footer__image">
-                        <img src="img/footer/3.jpeg" alt="">
-                     </div>
-                  </a>
-                  <a href="https://www.instagram.com/" class="inst-footer__item">
-                     <div class="inst-footer__image">
-                        <img src="img/footer/4.jpeg" alt="">
-                     </div>
-                  </a>
-                  <a href="https://www.instagram.com/" class="inst-footer__item">
-                     <div class="inst-footer__image">
-                        <img src="img/footer/5.jpeg" alt="">
-                     </div>
-                  </a>
-                  <a href="https://www.instagram.com/" class="inst-footer__item">
-                     <div class="inst-footer__image">
-                        <img src="img/footer/6.jpeg" alt="">
-                     </div>
-                  </a>
-               </div>
+          </div>
+          <div class="footer__inst inst-footer">
+            <div class="inst-footer__title">Наш инстаграм</div>
+            <div class="inst-footer__body">
+              <a href="https://www.instagram.com/" class="inst-footer__item">
+                <div class="inst-footer__image">
+                  <img src="img/footer/1.jpeg" alt="" />
+                </div>
+              </a>
+              <a href="https://www.instagram.com/" class="inst-footer__item">
+                <div class="inst-footer__image">
+                  <img src="img/footer/2.jpeg" alt="" />
+                </div>
+              </a>
+              <a href="https://www.instagram.com/" class="inst-footer__item">
+                <div class="inst-footer__image">
+                  <img src="img/footer/3.jpeg" alt="" />
+                </div>
+              </a>
+              <a href="https://www.instagram.com/" class="inst-footer__item">
+                <div class="inst-footer__image">
+                  <img src="img/footer/4.jpeg" alt="" />
+                </div>
+              </a>
+              <a href="https://www.instagram.com/" class="inst-footer__item">
+                <div class="inst-footer__image">
+                  <img src="img/footer/5.jpeg" alt="" />
+                </div>
+              </a>
+              <a href="https://www.instagram.com/" class="inst-footer__item">
+                <div class="inst-footer__image">
+                  <img src="img/footer/6.jpeg" alt="" />
+                </div>
+              </a>
             </div>
-         </div>
-         <div class="footer__copy">
-            <p>Copyright © 2022 Expocoffee. Все права защищены.</p>
-         </div>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <p>Copyright © 2022 Expocoffee. Все права защищены.</p>
+        </div>
       </footer>
-   </div>
-   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-   <script src="js/main.js"></script>
-</body>
-
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
