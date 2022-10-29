@@ -15,6 +15,9 @@ Coffee shop landing page with animations, beautiful design, sliders, gallery and
 
 ![Video-Gif720p](https://github.com/Solmyrik/Expocoffee/blob/main/gitimage/Expocoffee%20-%20Google%20Chrome%202022-10-29%2019-19-18.gif?raw=true)
 
+
+## Project technologies
+
 <p>
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-ffff00?style=flat-square&logo=javascript&logoColor=black" />
   <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
